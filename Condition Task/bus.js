@@ -1,6 +1,6 @@
 var fare = 800;
-var age = ;
-var isStudent = true 
+var age = 20;
+var isStudent = false 
 
 
 if( age < 10 ){
@@ -11,7 +11,7 @@ else if( age >= 60){
     var pay = fare - discount
     console.log(pay)
 }
-else if( isStudent === true ){
+else if( isStudent ){
     var studentDiscount = (fare * 50) / 100;
     studentsPay = fare - studentDiscount
     console.log(studentsPay)
